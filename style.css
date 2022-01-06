@@ -101,13 +101,14 @@
     background-repeat: no-repeat;
 }
 #dev-pic{
-    width: 70%;
+    width: 80%;
     margin-left: 15%;
 }
 .develop-texts{
     width: 50%;
     font-family: 'Poppins', sans-serif;
     margin-right: 8%;
+    padding-left: 40px;
 }
 .develop-texts h1{
     font-size: 37px;
@@ -118,12 +119,47 @@
     font-size: 18px;
     padding-bottom: 20px;
 }
+/* both dev and com section */
 #cmn-btn{
     text-decoration: none;
     background-color: #FF5959;
     color: #FFF;
-    padding: 15px 40px;
+    padding: 13px 35px;
     border-radius: 6px;
 }
 
 /* Community section */
+.community{
+    margin-bottom: 100px;
+}
+.community-parent{
+    display: flex;
+    
+}
+.community-img{
+    width: 40%;
+    margin-left: 8%;
+    background-image: url(images/shapes/shape-1.png);
+    background-position:   bottom 20px right 20px;
+    background-size: 35%;
+    background-repeat: no-repeat;
+}
+#com-pic{
+    width: 80%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+}
+.community-texts{
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15%;
+}
+.community-texts h1{
+    font-size: 37px;
+    color: #333333;
+}
+.community-texts p{
+    color: #3E3E3E;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
