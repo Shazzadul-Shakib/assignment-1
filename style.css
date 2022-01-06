@@ -85,19 +85,29 @@
 }
 
 /* Develop part */
+.develop{
+    margin-bottom: 100px;
+}
 .develop-parent{
     display: flex;
-    margin: 2% 15%;
+    
 }
 .develop-img{
-    width: 50%;
+    width: 40%;
+    margin-left: 8%;
+    background-image: url(images/shapes/shape-1.png);
+    background-position: left center;
+    background-size: 35%;
+    background-repeat: no-repeat;
 }
 #dev-pic{
-    width: 80%;
+    width: 70%;
+    margin-left: 15%;
 }
 .develop-texts{
     width: 50%;
     font-family: 'Poppins', sans-serif;
+    margin-right: 8%;
 }
 .develop-texts h1{
     font-size: 37px;
@@ -106,4 +116,14 @@
 .develop-texts p{
     color: #3E3E3E;
     font-size: 18px;
+    padding-bottom: 20px;
 }
+#cmn-btn{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: #FFF;
+    padding: 15px 40px;
+    border-radius: 6px;
+}
+
+/* Community section */
